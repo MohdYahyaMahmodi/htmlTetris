@@ -36,11 +36,11 @@ Welcome to the **#1 Video Game on Neocities**! This modern implementation of the
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/neocities-tetris.git
+   git clone https://github.com/MohdYahyaMahmodi/htmlTetris.git
    ```
 2. Navigate to the project directory:
    ```
-   cd neocities-tetris
+   cd htmlTetris
    ```
 3. Open `index.html` in your web browser or serve it using a local web server.
 

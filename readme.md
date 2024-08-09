@@ -19,11 +19,9 @@ Welcome to the **#1 Video Game on Neocities**! This modern implementation of the
 <table>
   <tr>
     <td><img src="game.png" alt="Desktop Gameplay" width="400"/></td>
-    <td><img src="game.png" alt="Mobile Gameplay" width="200"/></td>
   </tr>
   <tr>
     <td align="center"><i>Desktop Gameplay</i></td>
-    <td align="center"><i>Mobile Gameplay</i></td>
   </tr>
 </table>
 

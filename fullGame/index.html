@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Viewport meta tag for responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tetris Game</title>
+    <!-- Link to the main stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Link to Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Favicon for the website -->
+    <link rel="icon" type="image/webp" href="favicon.webp">
+    <!-- Web app manifest for PWA support -->
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <!-- Main content wrapper -->
+    <div class="content-wrapper">
+        <!-- Game container -->
+        <div class="game-container">
+            <!-- Tetris logo -->
+            <img src="tetris.png" alt="Tetris Logo" class="logo">
+            <!-- Slogan -->
+            <p class="slogan">The #1 Video Game on Neocities</p>
+            <!-- Game grid container -->
+            <div class="game-grid-container">
+                <!-- Main game grid -->
+                <div class="grid"></div>
+                <!-- Side panel for game info and controls -->
+                <div class="side-panel">
+                    <!-- Next piece preview title -->
+                    <div class="mini-grid-title">Next Piece:</div>
+                    <!-- Mini grid for next piece preview -->
+                    <div class="mini-grid"></div>
+                    <!-- Score display and start button -->
+                    <div class="score-display">
+                        <h1>Score: <span id="score">0</span></h1>
+                        <button id="start-button">Start Game</button>
+                    </div>
+                    <!-- Game controls -->
+                    <div class="controls">
+                        <!-- Rotate control -->
+                        <div class="control-column">
+                            <div class="control-label">Rotate</div>
+                            <button class="control-key" id="rotate-btn"><i class="fas fa-arrow-up"></i></button>
+                        </div>
+                        <!-- Left, Down, and Right controls -->
+                        <div class="control-row">
+                            <div class="control-column">
+                                <button class="control-key" id="left-btn"><i class="fas fa-arrow-left"></i></button>
+                                <div class="control-label">Left</div>
+                            </div>
+                            <div class="control-column">
+                                <button class="control-key" id="down-btn"><i class="fas fa-arrow-down"></i></button>
+                                <div class="control-label">Down</div>
+                            </div>
+                            <div class="control-column">
+                                <button class="control-key" id="right-btn"><i class="fas fa-arrow-right"></i></button>
+                                <div class="control-label">Right</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Instructions for mobile users -->
+            <p class="mobile-instructions">For mobile users: Use the arrow buttons above to move the blocks.</p>
+        </div>
+    </div>
+    <!-- Footer with version and credits -->
+    <footer>
+        <p>v1.0.0.0 | Made by <a href="https://github.com/MohdYahyaMahmodi/" target="_blank">Mohd Mahmodi</a> and <a href="https://github.com/singus" target="_blank">Singus</a></p>
+    </footer>
+    <!-- Link to the main JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
